@@ -3,6 +3,7 @@ const dict ={
     mice : "mouse",
     cat : "feline",
     dog : "canine"
+    //we can add more words
 }
 console.log(dict)//print all the element
 // print particuler element
