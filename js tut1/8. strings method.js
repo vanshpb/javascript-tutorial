@@ -1,46 +1,46 @@
-{var a = "salman khan"}
+var a = "salman khan"
 //
 {
 //length of the string
 let l = (a.length)
-console.log(l)//output 7
+console.log(l)//output 11
 //or can be used this
-console.log(a.length)//output 7
+console.log(a.length)//output 11
 }
 //
 {
     // String to uppercase 
     let upr = (a.toUpperCase())
-    console.log(upr)//output KHUSBOO
+    console.log(upr)//output SALMAN KHAN
 }
 //
 {
     // string to lowercase
     let lwr = (a.toLowerCase())
-    console.log(lwr)//output khusboo
+    console.log(lwr)//output salman khan
 }
 //
 {
     //slice with second argument
     let slice = (a.slice(2,5))
-    console.log(slice)//output shb
+    console.log(slice)//output lma
 }
 {
     // slice with single argument
     let slice1 = (a.slice(2))
-    console.log(slice1)//output shboo
+    console.log(slice1)//output lman khan
 }
 {
     // replace method
-    var rep = (a.replace('boo', 'uuu'))
-    console.log(rep) //output kushuuu
+    var rep = (a.replace('man', 'pan'))
+    console.log(rep) //output salpan khan
 }
 {
     // concat method
     let cat = (a.concat(" is love of my life"))
     let cat2 =(rep.concat(" is love of my life"))
-    console.log(cat) // kushboo is love of my life
-    console.log(cat2) // kushuuu is love of my life
+    console.log(cat) // salman khan is love of my life
+    console.log(cat2) // salpan khan is love of my life
 }
 {
     // trim method
