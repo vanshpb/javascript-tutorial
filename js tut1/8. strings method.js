@@ -1,4 +1,4 @@
-{var a = "kushboo"}
+{var a = "salman khan"}
 //
 {
 //length of the string
